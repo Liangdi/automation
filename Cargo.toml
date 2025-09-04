@@ -3,4 +3,12 @@ name = "automation"
 version = "0.1.0"
 edition = "2024"
 
+homepage = "https://github.com/Liangdi/automation"
+repository = "https://github.com/Liangdi/automation"
+
+authors = ["Liangdi <wu@liangdi.me>"]
+
+description = "Automation for Rust"
+keywords = ["automation", "rust"]
+
 [dependencies]
