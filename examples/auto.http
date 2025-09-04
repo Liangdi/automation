@@ -1,0 +1,28 @@
+@SERVER=http://localhost:8080
+
+
+
+### execute action
+POST {{SERVER}}/execute HTTP/1.1
+Content-Type: application/json
+
+{
+  "type": "TypeText",
+  "params": {
+    "text": "Hello, World!"
+  }
+}
+
+
+### execute action mouse move
+POST {{SERVER}}/execute HTTP/1.1
+Content-Type: application/json
+
+{
+  "type": "MouseMove",
+  "params": {
+    "x": 110,
+    "y": 120
+  }
+}
+
