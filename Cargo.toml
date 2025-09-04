@@ -11,4 +11,6 @@ authors = ["Liangdi <wu@liangdi.me>"]
 description = "Automation for Rust"
 keywords = ["automation", "rust"]
 
+license = "MIT"
+
 [dependencies]
